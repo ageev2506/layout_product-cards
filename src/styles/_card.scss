@@ -16,10 +16,10 @@
     align-items: center;
     height: 134px;
     margin-bottom: 24px;
-    margin-top: 32px;
   }
 
   &__img {
+    margin-top: 32px;
     width: 160px;
     height: 134px;
     object-fit: contain;
@@ -100,8 +100,8 @@
     border: 1px solid $color-primary;
 
     &:hover {
-      background-color: #fff;
-      color: #00acdc;
+      background-color: $color-border;
+      color: $color-primary;
     }
   }
 }
