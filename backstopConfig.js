@@ -35,12 +35,7 @@ const config = {
       postInteractionWait: 1000,
       selectors: ['[data-qa="card"]'],
     },
-    {
-      label: 'Product Card',
-      url: '...',
-      delay: 500,
-      waitOnReady: true,
-    },
+
   ],
 };
 
